@@ -1,0 +1,21 @@
+body{
+	padding: 10px;
+	background: radial-gradient(circle, #2A3659 , #353440 ); 
+}
+
+.nav-link{
+	color: #F2CD88 !important;
+}
+
+.navbar-brand{
+	color: #F2CD88 !important;
+}
+
+.nav-seperator{
+	display: block;
+	position: relative;
+	color: white;
+	padding-bottom: 15px; 
+	font-size: 35px;
+	bottom: 15px;
+}

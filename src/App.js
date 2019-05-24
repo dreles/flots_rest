@@ -1,9 +1,18 @@
 import React from 'react';
+import NavBar from './NavBar'; 
+
+
+import './App.css';
 
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <div id="section1">
+        <NavBar></NavBar>
+        
+      </div>
+    </div>
   );
 }
 
