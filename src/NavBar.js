@@ -14,7 +14,7 @@ class NavBar extends React.Component {
 			      <p className="nav-seperator">.</p>
 			      <a className="nav-item nav-link px-5" href="#">MENU</a>
 		
-			      <a className="navbar-brand m-0 px-5" href="#">FLOTS</a>
+			      <a className="navbar-brand m-0 px-5" href="#">Leslie's</a>
 
 			      <a className="nav-item nav-link px-5" href="#">ORDER</a>
 			       <p className="nav-seperator">.</p>

@@ -1,26 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+
 body{
-	padding: 10px;
-	padding: 10px;
 	background-color: #9BBF65; 
 	background-repeat: no-repeat;
 }
-
+/*Navigation items */
 .nav-link{
-	color: #807EBF !important;
+	color: white !important;
 	font-family: 'Fjalla One', sans-serif;
-	/*-webkit-text-stroke-width: 0.05px;
-   -webkit-text-stroke-color: white;*/
 
 }
 
 .navbar-brand{
-	color: #807EBF !important;
+	color: white !important;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 30px;
 }
 
 .nav-link:hover{
 	transform: scale(1.1);
+}
+
+.button-end{
+	background-color: #CBD9C7; 
+	height: 100%;
 }
 
 .nav-seperator{
@@ -32,11 +37,22 @@ body{
 	bottom: 15px;
 }
 
+/*Sections*/
 #section1 {
 	padding: 10px;
 	background-color: #9BBF65; 
 	background-repeat: no-repeat;
 	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+#section2{
+	background-color: #4F593F;
+	padding: 10px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
 
 .btn{
@@ -53,9 +69,55 @@ body{
 	margin-bottom: 20px;
 }
 
+.special-offer {
+	padding: 50px;
+	background-color: #807EBF;
+	max-height: 450px;
+}
+
 .sub-greeting {
 	margin-bottom: 5em;
 	color: #CBD9C7;
+}
+
+.popular-item{ 
+	padding:  0px 10% 0px 10%; 
+	border-radius: 20px;
+	background: linear-gradient( rgb(155, 191, 101), rgb(155, 191, 130));
+	width: 100%;
+	margin: 0px 10% 0px 10%; 
+ }
+
+ .row.popular-item.active{ 
+	border-radius: 0px;
+	background-color: white !important;
+	background: transparent; 
+	width: 100%;
+	margin: 0px 10% 0px 10%; 
+	transform: scale(1.05);
+	color: #807EBF !important;
+	padding-right: 0px;
+	max-height: 65px;
+	box-shadow: 2px 2px 15px 1px black;
+ }
+
+ .row.popular-item.active .greeting{ 
+	color: #9BBF65;
+	transform: scale(1.1);
+ }
+
+.popular-desc{
+	text-align: right;
+	padding:  5%  0px 5% 0px; 
+	margin: 0px;
+}
+
+.scroll-image{
+	width:  525px;
+	height:  612.5px;
+	position: relative;
+	bottom:  50px;
+	box-shadow: 0px 0px 6px 3px black;
 }
 
 @media(max-width: 991px){
@@ -67,15 +129,64 @@ body{
 		display: none
 	}
 
+	.navbar-brand{
+		display: none;
+	}
+
 	.btn{
 		margin: auto;
+	}
+
+	.popular-desc{
+	
+		padding:  0px;
+		text-align: left;
+		margin: 0px;
+	}
+
+	.greeting{
+		padding-bottom: 0px;
+	}
+
+	.scroll-image{
+		width: 100vh;
+		height: 504px;
+	}
+
+	#footer{
+		background-color: #9BBF65; 
 	}
 }
 
 @media (max-width: 1199.98px) {
-	
+
 	.btn{
 		margin: auto;
+	}
+
+	.popular-desc{
+	
+		padding-top:  5%;
+		text-align: left;
+		margin: 0px;
+	}
+
+	.greeting{
+		padding-bottom: 10px;
+	}
+
+	.popular-desc{
+		display: none;
+	}
+
+	.scroll-image{
+		width: 75vw;
+		height:  auto;
+		bottom: 0px;
+	}
+
+	.special-offer{
+		display: block;
 	}
 
 }
