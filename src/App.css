@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 
 body{
-	background-color: #9BBF65; 
+	background-color: #545454; 
 	background-repeat: no-repeat;
 }
 /*Navigation items */
@@ -24,7 +24,7 @@ body{
 }
 
 .button-end{
-	background-color: #CBD9C7; 
+	background-color: #7E9181; 
 	height: 100%;
 }
 
@@ -40,7 +40,7 @@ body{
 /*Sections*/
 #section1 {
 	padding: 10px;
-	background-color: #9BBF65; 
+	background-color: #545454; 
 	background-repeat: no-repeat;
 	text-align: center;
 	padding-left: 100px;
@@ -67,11 +67,12 @@ body{
 	font-family: 'Ramabhadra', sans-serif;
 	color: white;
 	margin-bottom: 20px;
+	padding: 5% 0px;
 }
 
 .special-offer {
 	padding: 50px;
-	background-color: #807EBF;
+	background-color: #44784E;
 	max-height: 450px;
 }
 
@@ -83,10 +84,30 @@ body{
 .popular-item{ 
 	padding:  0px 10% 0px 10%; 
 	border-radius: 20px;
-	background: linear-gradient( rgb(155, 191, 101), rgb(155, 191, 130));
+	background-color: rgb(84, 84, 84);
 	width: 100%;
 	margin: 0px 10% 0px 10%; 
+
  }
+
+ #end-game{
+ 	display: none;
+
+ 	
+ }
+
+ .background-image{
+ 	margin-left: 20em;
+ 	height: 700px;
+ }
+
+ .my-button{ 
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+	height: 50px; 
+	margin: "auto";
+  }
 
  .row.popular-item.active{ 
 	border-radius: 0px;
@@ -95,15 +116,26 @@ body{
 	width: 100%;
 	margin: 0px 10% 0px 10%; 
 	transform: scale(1.05);
-	color: #807EBF !important;
+	color: #7E9181 !important;
 	padding-right: 0px;
-	max-height: 65px;
+	/*max-height: 65px;*/
 	box-shadow: 2px 2px 15px 1px black;
  }
 
  .row.popular-item.active .greeting{ 
-	color: #9BBF65;
+	color: #C1D6BF;
 	transform: scale(1.1);
+ }
+
+ .row.popular-item.active #end-game{
+ 	display: block;
+ 	line-height: 0px;
+ }
+
+ .row.popular-item.active #end-game:hover{
+ 	display: block;
+ 	line-height: 0px;
+ 	background-color: rgb(61, 122, 71);
  }
 
 .popular-desc{
@@ -113,12 +145,45 @@ body{
 }
 
 .scroll-image{
-	width:  525px;
-	height:  612.5px;
+	max-width: 100%;
+	width:  auto;
+	height:  600px;
 	position: relative;
-	bottom:  50px;
 	box-shadow: 0px 0px 6px 3px black;
+	bottom: 40px;
 }
+#footer a{	
+	font-size: calc(0.2vw + 0.1vh + 1vmin);;
+	color: white;
+
+}
+
+#footer p {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#footer .navbar-brand { 
+	font-size: 40px;
+	display: block;
+ }
+
+ div.btn.my-btn{ 
+	text-align: center;
+	width: 100%;
+	padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 50px;
+	margin: "auto";
+  }
+
+  #footer{
+		background-color: #5454545; 
+		padding-left: 10%;
+		padding-top: 5%;
+		padding-right: 10%;
+		padding-bottom: 5%; 
+	}
 
 @media(max-width: 991px){
 	.nav-seperator{
@@ -149,13 +214,12 @@ body{
 	}
 
 	.scroll-image{
-		width: 100vh;
-		height: 504px;
+		width: 600px;
+		height: auto;
+		bottom: 80vh;
+		left: 140%;
 	}
 
-	#footer{
-		background-color: #9BBF65; 
-	}
 }
 
 @media (max-width: 1199.98px) {
@@ -179,14 +243,14 @@ body{
 		display: none;
 	}
 
-	.scroll-image{
-		width: 75vw;
-		height:  auto;
-		bottom: 0px;
-	}
-
 	.special-offer{
 		display: block;
 	}
 
+}
+
+@media (max-width: 480px) {
+
+	.scroll-image{ 
+	 }
 }
