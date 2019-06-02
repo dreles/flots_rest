@@ -26,7 +26,7 @@ const SectionOne = () => {
 	           <img className="background-image" id="main-image"src={require('./images/bMap.png')} alt="food"/>
 	        </div>
 	        <div className="col">
-	          <h1 className="greeting" style={{fontSize: "100px"}}>It's that simple.</h1>
+	          <h1 className="greeting" >It's that simple.</h1>
 	          <h5 className="sub-greeting">FEATURING OUR NEW SPRING SPECIALS!</h5>
 	          <div className="btn my-btn">
 	            <p style={{margin: "0px", paddingTop: "10%"}}>Details</p>

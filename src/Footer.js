@@ -6,7 +6,7 @@ const Footer = () => {
       
 	        <div className="col"><a className="navbar-brand m-0 px-5" href="#">Leslie's</a></div>
 	        <div style={{marginTop: "2%"}}className="col-md-4 col-sm-12"> <p>Subscribe for deals, offers, and upcoming events!</p> </div>
-	        <div className="col"> 
+	        <div className="col links"> 
 	          <div className="row">
 	            <div className="col"><a href="">. Home</a></div>
 	            <div className="col"><a href="">. Order</a></div>

@@ -47,6 +47,10 @@ body{
 	padding-right: 100px;
 }
 
+#section1 h1.greeting {
+	font-size: 100px;
+}
+
 
 #section2{
 	background-color: #4F593F;
@@ -249,8 +253,57 @@ body{
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 489px) {
 
-	.scroll-image{ 
+	#section1 h1.greeting {
+		font-size: 60px;
+		position: relative;
+		right: 20px;
+
+	}
+
+	h5.sub-greeting {
+		position: relative;
+    	left: 15%;
+	}
+
+	div.btn.my-btn {
+		position: relative;
+	    left: 10%;
+	}
+
+	.row.popular-item.active { 
+		width: 160%;
+		position: relative;
+		right: 20%;
 	 }
+
+	 #section2{
+	 	position: relative;
+    	left: 10%;
+    	padding: 0px;
+	 }
+
+	 .scroll-image{
+	 	display: none; 
+	 }
+
+	 a.navbar-brand {
+	 	text-align: right;
+	 }
+
+	 #footer p {
+	 	text-align:  center;
+	 }
+
+	 #footer a {
+	 	font-size: 12px;
+	 }
+
+
+	#footer .links {
+		position: relative;
+		left: 10%;
+	}
+
 }

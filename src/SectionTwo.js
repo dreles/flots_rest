@@ -7,7 +7,7 @@ const SectionTwo = () => {
 	      <div style={{marginLeft: "0px", marginRight: "0px", marginTop: "80px"}} className="row">
 	            <div style={{textShadow: '4px 1px 20px black'}} className="col-lg-6 special-offer" >
 	              <div className="row" style={{color: "#C1D6BF"}}>Special Offer</div>
-	              <div className="row"> <h1 style={{color: "white"}}>Spicy Beef Noodle</h1> </div>
+	              <div className="row"> <h1 style={{color: "white"}}>Garnaches & Tortillas</h1> </div>
 	              <div className="row" style={{fontSize: "12px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. In tellus integer feugiat scelerisque varius morbi enim nunc faucibus.</div>
 	              <div className="row" style={{color: "#C1D6BF"}}><h1>$13</h1></div>
 	              <div className="row">
